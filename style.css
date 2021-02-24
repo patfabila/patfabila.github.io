@@ -1,12 +1,16 @@
 /* CSS files add styling rules to your content */
 
 body {
-    font-family: helvetica, arial, sans-serif;
-    margin: 2em;
+    margin: 0 !important;
+    padding: 0 !important;
   }
-  
-  h1 {
-    font-style: italic;
-    color: #373fff;
+  .header-container{
+    display: flex;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-family: "Montserrat", sans-serif;
+    flex-direction: row;
   }
   
