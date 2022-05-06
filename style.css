@@ -1,0 +1,189 @@
+/* CSS files add styling rules to your content */
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  
+}
+
+.header-container {
+  display: flex;
+  padding:1.5rem;
+ font-family: 'Judson', serif;
+  flex-direction: row;
+   text-transform: uppercase;
+
+  justify-content: space-between;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+}
+/*
+.slime {
+    position: absolute;
+  top:.2rem;
+  left:.5rem;
+}*/
+.mushroom {
+    position: absolute;
+  top:.8rem;
+  left:7rem;
+}
+.initials{
+  padding-left:1rem;
+}
+.abt {
+  margin-right: 2rem;
+}
+
+#counter {
+  display: flex;
+  background-color: black;
+
+  color: #f2f2f2;
+  justify-content: center;
+  font-size: 400%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+ font-family: 'Judson', serif;
+}
+
+.slideshow-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+.slideshow {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+/*
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+*/
+.name2 {
+  font-size: 750%;
+  display: flex;
+  align-items: center;
+  padding: 10%;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 500;
+}
+
+.about-container {
+  display: flex;
+
+  flex-direction: column;
+  align-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 2rem;
+
+ font-family: 'Judson', serif;
+  font-weight: 300;
+  font-size: xx-large;
+}
+.myphotos-container{
+  display:flex;
+  flex-direction:column;
+  height:750px;
+}
+.myphotos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.photo1 {
+  width: 335px;
+  height: 120px;
+  visibility: hidden;
+}
+
+.photo1 img {
+  width: 100%;
+  height: auto;
+}
+.photo2 {
+  width: 435px;
+  height: 120px;
+  visibility: hidden;
+}
+
+.photo2 img {
+  margin-top: 5rem;
+  width: 100%;
+  height: auto;
+}
+.photo3 {
+  width: 335px;
+  height: 120px;
+  visibility: hidden;
+}
+
+.photo3 img {
+  width: 100%;
+  height: auto;
+}
+
+.fadeIn {
+  -webkit-animation: animat_show 2s;
+  animation: animat_show 2s;
+  visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.footer-container{
+  background-color:black;
+  color:white;
+}
+
+.footer-title{
+  display:flex;
+  justify-content:center;
+  padding-top:1rem;
+  font-family: "Archivo Black", sans-serif;
+}
+.logo-container2{
+  display:flex;
+  justify-content:center;
+}
+.logo-container{
+   text-align:center;
+  display:inline;
+}
+
+.logo-container img{
+ margin:1rem;
+}
+
