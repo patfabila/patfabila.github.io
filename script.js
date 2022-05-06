@@ -20,7 +20,7 @@ function showSlides() {
 }
 
 //COUNTER------
-var finishTime = new Date("May 8, 2021 17:00:00").getTime();
+var finishTime = new Date("May 8, 2049 00:00:01").getTime();
 
 setInterval(function() {
   var now = new Date().getTime();
