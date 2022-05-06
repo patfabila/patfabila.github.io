@@ -127,13 +127,12 @@ body {
   height: auto;
 }
 .photo2 {
-  width: 435px;
+  width: 335px;
   height: 120px;
   visibility: hidden;
 }
 
 .photo2 img {
-  margin-top: 5rem;
   width: 100%;
   height: auto;
 }
