@@ -105,22 +105,30 @@ body {
   padding-right: 10px;
 }
 
+a{
+  text-decoration: none;
+}
+
 #covid_data_analysis{
   padding: 10rem;
-  border: white;
+  border: #808080;
   border-style: solid;
+  text-decoration: none;
 }
 
 #crwn-ecommerce{
   padding: 10rem;
-  border: white;
+  border: #808080;
   border-style: solid;
+  text-decoration: none;
 }
 
 .myphotos-container{
   display:flex;
   flex-direction:column;
   height:750px;
+  padding-left: 2rem;
+  font-family: "Archivo Black", sans-serif;
 }
 .myphotos {
   display: flex;
