@@ -3,6 +3,7 @@
 body {
   margin: 0 !important;
   padding: 0 !important;
+  background-color: beige;
   
 }
 
@@ -109,9 +110,14 @@ body {
 .projects{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+#covid_data_analysis{
+  padding: 15rem;
+  border: white;
 }
 
 .myphotos-container{
@@ -123,7 +129,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
 }
 .photo1 {
   width: 335px;
