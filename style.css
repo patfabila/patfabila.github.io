@@ -1,10 +1,6 @@
-/* CSS files add styling rules to your content */
-
 body {
   margin: 0 !important;
   padding: 0 !important;
-  background-color: #484848;
-  
 }
 
 .header-container {
@@ -35,7 +31,7 @@ body {
   color: #f2f2f2;
   justify-content: center;
   font-size: 400%;
-  padding-top: 4rem;
+  padding-top: 1.5rem;
   padding-bottom: 1.5rem;
  font-family: 'Judson', serif;
 }
@@ -94,6 +90,11 @@ body {
  font-family: 'Judson', serif;
   font-weight: 300;
   font-size: xx-large;
+}
+
+.projects-container{
+  padding-left: 2rem;
+  font-family: "Archivo Black", sans-serif;
 }
 
 .projects{
