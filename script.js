@@ -1,15 +1,15 @@
 //STICKY HEADER------
-window.onscroll = function() {sticky_header()};
+/*window.onscroll = function() {sticky_header()};
 var header = document.getElementById("header-container");
 var sticky = header.offsetTop;
 
 function sticky_header() {
   if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
+    header.addClass("sticky-header");
   } else {
-    header.classList.remove("sticky");
+    header.removeClass("sticky-header");
   }
-}
+}*/
 
 //CAROUSEL------
 console.log("hi");
