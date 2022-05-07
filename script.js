@@ -1,16 +1,3 @@
-//STICKY HEADER------
-/*window.onscroll = function() {sticky_header()};
-var header = document.getElementById("header-container");
-var sticky = header.offsetTop;
-
-function sticky_header() {
-  if (window.pageYOffset > sticky) {
-    header.addClass("sticky-header");
-  } else {
-    header.removeClass("sticky-header");
-  }
-}*/
-
 //CAROUSEL------
 console.log("hi");
 var slideIndex = 0;
