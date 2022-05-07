@@ -61,7 +61,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  width: 35rem;
+  width: 25rem;
 }
 
 .fade {
@@ -108,7 +108,10 @@ body {
 
 .projects-container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .myphotos-container{
