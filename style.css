@@ -29,7 +29,7 @@ body {
 .mushroom {
     position: absolute;
   top:.8rem;
-  left:7rem;
+  left:7.5rem;
 }
 .initials{
   padding-left:1rem;
@@ -61,7 +61,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  width: 30%;
+  width: 35rem;
 }
 
 .fade {
@@ -82,7 +82,7 @@ body {
 }
 */
 .name2 {
-  font-size: 750%;
+  font-size: 600%;
   display: flex;
   align-items: center;
   padding: 10%;
