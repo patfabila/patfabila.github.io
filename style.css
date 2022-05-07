@@ -106,7 +106,7 @@ body {
   font-size: xx-large;
 }
 
-.projects-container{
+.projects{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
