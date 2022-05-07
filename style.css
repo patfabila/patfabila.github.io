@@ -20,17 +20,7 @@ body {
   display: flex;
   flex-direction: row;
 }
-/*
-.slime {
-    position: absolute;
-  top:.2rem;
-  left:.5rem;
-}*/
-.mushroom {
-    position: absolute;
-  top:.8rem;
-  left:7.5rem;
-}
+
 .initials{
   padding-left:1rem;
 }
