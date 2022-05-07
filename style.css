@@ -3,7 +3,7 @@
 body {
   margin: 0 !important;
   padding: 0 !important;
-  background-color: beige;
+  background-color: #484848;
   
 }
 
@@ -105,13 +105,13 @@ body {
 }
 
 #covid_data_analysis{
-  padding: 15rem;
+  padding: 10rem;
   border: white;
   border-style: solid;
 }
 
 #crwn-ecommerce{
-  padding: 15rem;
+  padding: 10rem;
   border: white;
   border-style: solid;
 }
