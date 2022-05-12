@@ -124,12 +124,17 @@ a{
 }
 
 #covid_data_analysis, #crwn-ecommerce{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding:2rem;
   border: #808080;
   border-style: solid;
   text-decoration: none;
- 
+  width:45%;
+  text-align: center;
+}
+
+p{
+  display: flex;
+  justify-content: center;
 }
 
 .myphotos-container{
@@ -144,33 +149,13 @@ a{
   flex-direction: row;
   justify-content: space-around;
 }
-.photo1 {
+.photo1, .photo2, .photo3 {
   width: 335px;
   height: 120px;
   visibility: hidden;
 }
 
-.photo1 img {
-  width: 100%;
-  height: auto;
-}
-.photo2 {
-  width: 335px;
-  height: 120px;
-  visibility: hidden;
-}
-
-.photo2 img {
-  width: 100%;
-  height: auto;
-}
-.photo3 {
-  width: 335px;
-  height: 120px;
-  visibility: hidden;
-}
-
-.photo3 img {
+.photo1 img, .photo2 img, .photo3 img {
   width: 100%;
   height: auto;
 }
