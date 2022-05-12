@@ -124,20 +124,13 @@ a{
 }
 
 #covid_data_analysis, #crwn-ecommerce{
-  padding: 10rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   border: #808080;
   border-style: solid;
   text-decoration: none;
-  display: flex;
-  justify-content: center;
+ 
 }
-/*
-#crwn-ecommerce{
-  padding: 10rem;
-  border: #808080;
-  border-style: solid;
-  text-decoration: none;
-}*/
 
 .myphotos-container{
   display:flex;
