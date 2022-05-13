@@ -142,6 +142,31 @@ p{
   justify-content: center;
 }
 
+.slider-container{
+  width:1600px;
+  margin:auto;
+}
+
+.subcontainer{
+  width:85%;
+  margin:auto;
+}
+
+@media(max-width:1600px){
+  .slider-container{
+    width:100%;
+  }
+}
+
+.slide-photo{
+  width:100%;
+  height:150px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+/**
 .myphotos-container{
   display:flex;
   flex-direction:column;
@@ -179,7 +204,7 @@ p{
     opacity: 1;
   }
 }
-
+**/
 .footer-container{
   background-color:black;
   color:white;
