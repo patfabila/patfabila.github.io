@@ -158,6 +158,10 @@ p{
   }
 }
 
+.photo-slider{
+  display: flex;
+}
+
 .slide-photo{
   width:250px;
   height:100%;
