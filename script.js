@@ -64,18 +64,18 @@ $(window).scroll(function() {
 var slider = tns({
   container:".photo-slider",
   "slideBy" : 1,
-  "speed": 400,
+  "speed": 200,
   "nav": false,
   autoplay: true,
   controls: true,
   autoplayButtonOutput: false,
   responsive: {
     1600: {
-      items: 4,
+      items: 3,
       gutter: 20
     },
     1024: {
-      items: 3,
+      items: 2,
       gutter:20
     },
     768: {
