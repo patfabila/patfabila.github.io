@@ -30,7 +30,25 @@ setInterval(function() {
   document.getElementById("counter").textContent = s;
 }, 1000);
 
-//fade photos
+//MODAL
+var modal = document.getElementsByClassName("modal-container")[0];
+var btn = document.getElementById("preview");
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+//fade
 function showImages(el) {
   var windowHeight = jQuery(window).height();
   $(el).each(function() {
