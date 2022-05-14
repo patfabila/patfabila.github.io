@@ -59,14 +59,31 @@ $(window).scroll(function() {
 
 });
 
-/*
-//dogs moving in header
-$(document).ready(function(e) {
-    var width = "+=" + $(document).width();
-    $(".dogs").animate({
-    left: width
-  }, 12500, function() {
-    // Animation complete.
-  });
-});
-*/
+
+//SLIDER
+var slider = tns({
+  container:".photo-slider",
+  "slideBy" : 1,
+  "speed": 400,
+  "nav": false,
+  autoplay: true,
+  controls: false,
+  autoplayButtonOutput: false,
+  responsive: {
+    1600: {
+      items: 4,
+      gutter: 20
+    },
+    1024: {
+      items: 3,
+      gutter:20
+    },
+    768: {
+      items:2,
+      gutter:20
+    },
+    480: {
+      items:1,
+    }
+  }
+})
