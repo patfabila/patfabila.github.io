@@ -67,7 +67,7 @@ var slider = tns({
   "speed": 400,
   "nav": false,
   autoplay: true,
-  controls: false,
+  controls: true,
   autoplayButtonOutput: false,
   responsive: {
     1600: {
