@@ -34,6 +34,10 @@ html {
   scroll-behavior: smooth;
 }
 
+h1{
+  font-size: 375%;
+}
+
 
 #counter {
   display: flex;
@@ -156,6 +160,12 @@ p{
   .slider-container{
     width:100%;
   }
+}
+
+.myphotos-container{
+  padding-top: 2rem;
+  padding-left: 2rem;
+  font-family: "Archivo Black", sans-serif;
 }
 
 .photo-slider{
