@@ -63,18 +63,14 @@ function showImages(el) {
 
 // if the image in the window of browser when the page is loaded, show that image
 $(document).ready(function() {
-  showImages(".photo1");
-  showImages(".photo2");
-  showImages(".photo3");
-
+  showImages("#covid_data_analysis");
+  showImages("#crwn-ecommerce");
 });
 
 // if the image in the window of browser when scrolling the page, show that image
 $(window).scroll(function() {
-  showImages(".photo1");
-  showImages(".photo2");
-  showImages(".photo3");
-
+  showImages("#covid_data_analysis");
+  showImages("#crwn-ecommerce");
 });
 
 
