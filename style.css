@@ -54,7 +54,7 @@ h1{
 .slideshow-container {
   display: flex;
   flex-direction: row;
-  padding-left: 3rem;
+  padding-left: 6rem;
   padding-top: 1rem;
 }
 
