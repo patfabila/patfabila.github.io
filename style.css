@@ -156,6 +156,11 @@ a{
   margin: 15% auto; 
   border: 1px solid #888;
   width: 80%;
+  background-color: #888;
+}
+
+.modal img:first-child {
+  width:100%;
 }
 
 .close {
