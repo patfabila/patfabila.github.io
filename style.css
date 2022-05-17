@@ -140,7 +140,7 @@ a{
   border: #808080;
   border-style: solid;
   border-width: 1px;
-  padding:1px;
+  padding:3px;
   background-color: #8888;
 }
 
@@ -148,7 +148,7 @@ button {
   border: #808080;
   background-color:transparent;
   outline:none;
-  padding:1px;
+  padding:3px;
   border-width: 1px;
   cursor: pointer;
   font-family: "Archivo Black", sans-serif;
