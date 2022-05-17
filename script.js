@@ -74,6 +74,7 @@ $(window).scroll(function() {
 });
 
 
+
 //SLIDER
 var slider = tns({
   container:".photo-slider",

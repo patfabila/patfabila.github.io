@@ -249,7 +249,7 @@ p{
   width: 100%;
   height: auto;
 }
-
+**/
 .fadeIn {
   -webkit-animation: animat_show 2s;
   animation: animat_show 2s;
@@ -264,7 +264,7 @@ p{
     opacity: 1;
   }
 }
-**/
+
 .footer-container{
   background-color:black;
   color:white;
