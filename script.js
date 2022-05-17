@@ -82,7 +82,7 @@ $(window).scroll(function() {
 var slider = tns({
   container:".photo-slider",
   "slideBy" : 1,
-  "speed": 10000,
+  "speed": 5000,
   "nav": false,
   autoplay: true,
   controls: false,

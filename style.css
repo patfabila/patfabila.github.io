@@ -110,8 +110,6 @@ h1{
 .projects-container{
   padding-left: 2rem;
   font-family: "Archivo Black", sans-serif;
-  margin:auto;
-
 }
 
 .projects{
@@ -144,9 +142,14 @@ a{
 }
 
 button {
-  border:none;
+  border: #808080;
   background-color:transparent;
   outline:none;
+  padding:1px;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: "Archivo Black", sans-serif;
+
 }
 
 .modal-container {
@@ -192,7 +195,6 @@ p{
 
 .slider-container{
   width:1600px;
-  margin:auto;
   padding-top: 2rem;
   padding-left: 2rem;
   font-family: "Archivo Black", sans-serif;
