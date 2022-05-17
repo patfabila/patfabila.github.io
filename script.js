@@ -69,8 +69,7 @@ $(document).ready(function() {
 
 // if the image in the window of browser when scrolling the page, show that image
 $(window).scroll(function() {
-  showImages("#covid_data_analysis");
-  showImages("#crwn-ecommerce");
+  showImages(".projects");
 });
 
 

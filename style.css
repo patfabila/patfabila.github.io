@@ -118,6 +118,8 @@ h1{
   justify-content: space-around;
   padding-left: 10px;
   padding-right: 10px;
+  visibility: hidden;
+
 }
 
 a{
