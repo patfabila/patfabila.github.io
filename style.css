@@ -110,6 +110,8 @@ h1{
 .projects-container{
   padding-left: 2rem;
   font-family: "Archivo Black", sans-serif;
+  margin:auto;
+
 }
 
 .projects{
@@ -139,6 +141,12 @@ a{
   border-style: solid;
   border-width: 1px;
   padding:1px;
+}
+
+button {
+  border:none;
+  background-color:transparent;
+  outline:none;
 }
 
 .modal-container {
