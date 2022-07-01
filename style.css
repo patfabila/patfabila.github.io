@@ -292,3 +292,11 @@ p{
  margin:1rem;
 }
 
+.footer-end{
+  display:flex;
+  justify-content:center;
+  padding-bottom:1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
